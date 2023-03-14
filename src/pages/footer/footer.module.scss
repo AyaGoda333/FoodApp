@@ -1,0 +1,53 @@
+.containerFooter{
+    background-color: rgba(255, 0, 0, 0.176);
+    padding: 35px;
+    margin-top: 40px !important;
+    Col{
+        margin-top: 10px;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 19px;
+        color: rgb(6, 6, 80);
+    }
+    p{
+        color: rgb(6, 6, 80);
+       
+          font-size: 15px;
+    }
+    h6{
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .Loream{
+          color: rgb(130, 129, 129);
+    margin-top: 10px;
+    }
+    .subscribe{
+          color: rgb(130, 129, 129);
+    }
+    .email{
+        padding:10px 15px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid  rgb(6, 6, 80);
+        background-color: transparent;
+    }
+    .email::placeholder{
+        color:  rgb(6, 6, 80);
+    }
+    .send{
+        position: relative;
+        width: fit-content;
+    }
+    button{
+        border: 0px;
+        background-color: rgb(6, 6, 80);
+        color: white;
+        border-radius: 5px;
+        padding: 5px 10px;
+       position: absolute;
+       top: 5px;
+       right: 10px;
+    }
+}

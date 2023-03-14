@@ -1,0 +1,36 @@
+.TastyContainer{
+  margin-top: 100px;
+  padding: 10px;
+  .TastyRightParentDiv{
+    span{
+        color: red;
+    }
+    p{
+         color: rgb(130, 129, 129);
+    }
+    .SmallParentDiv{
+        .SmallChildDiv{
+            margin-top: 30px;
+            div{
+                display: flex;
+                :first-child{
+                    color: red;
+                }
+                h3{
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+}
+@media(max-width:750px){
+    .Tastyimg{
+        display: none;
+    }
+    .TastyRightParentDiv{
+        padding: 30px;
+    }
+}

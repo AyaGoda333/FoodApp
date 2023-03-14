@@ -1,0 +1,42 @@
+.h11{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+.Populer{
+    padding: 0px 10px;
+    display: flex;
+   text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    &:hover{
+        background-color: white;
+       p{
+color: red !important;
+       } 
+    }
+    cursor: pointer;
+    img{
+        width: 30px;
+    }
+    p{
+        color: white;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+}
+
+.rowPopuler{
+    margin-top: 40px !important;
+    background-color: red;
+    padding: 7px;
+    border-radius: 10px;
+    column-gap: 10px !important;
+    flex-wrap: nowrap;
+
+}
+@media(max-width:770px) {
+    .deleteCol{
+        display: none;
+    }
+}

@@ -1,0 +1,52 @@
+*{  padding: 0;
+    margin: 0;
+}
+.Container{
+    margin-top: -30px;
+}
+.h6{
+    font-weight: bold;
+    margin-top: 50px;
+}
+.h1{
+    margin-top: 10px;
+     font-weight: bold;
+    color: red;
+    .spanclass{
+        color: black;
+    }
+}
+.loream{
+    color: rgb(130, 129, 129);
+    margin-top: 10px;
+}
+.btns{
+    margin-top: 10px;
+    display: inline-block;
+    :last-child{
+        margin-left: 15px;
+    }
+}
+.securediv{
+    margin-top: 40px;
+    display: flex;
+    .securedivd2{
+        margin-left: 15px;
+    }
+    div{
+       color: rgb(130, 129, 129);
+       display: flex;
+    :first-child{
+        color: white;
+        background-color: red;
+        border-radius: 50%;
+        padding: 3px;
+        font-size: 23px;    
+    }
+    :last-child{
+        margin-left: 5px;
+    }
+    }
+}
+
+

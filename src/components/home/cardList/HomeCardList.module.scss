@@ -1,0 +1,22 @@
+.Homecardlist{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    column-gap: 15px;
+}
+@media (max-width:1150px) {
+  .Homecardlist{
+    grid-template-columns: repeat(3,1fr);
+
+}  
+}
+@media (max-width:900px) {
+  .Homecardlist{
+    grid-template-columns: repeat(2,1fr);
+}  
+}
+@media (max-width:550px) {
+  .Homecardlist{
+    grid-template-columns: repeat(1,1fr);
+
+}  
+}
